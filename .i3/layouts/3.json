@@ -1,0 +1,22 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 982,
+       "width": 905,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Sign In: Wunderlist - Mozilla Firefox",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^wunderlist$",
+        "instance": "^Navigator$"
+       }
+    ],
+    "type": "con"
+}
+

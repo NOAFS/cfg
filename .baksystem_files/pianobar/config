@@ -1,0 +1,40 @@
+# Proxy
+control_proxy = http://104.155.53.214:3128
+
+#BINDS:
+act_help = ?
+act_songlove = +
+act_songban = -
+act_stationaddmusic = a
+act_stationcreate = c
+act_stationdelete = d
+act_songexplain = e
+act_stationaddbygenre = g
+act_songinfo = i
+act_addshared = j
+act_songmove = m
+act_songnext = n
+act_songpause = S
+act_songpausetoggle = p
+act_songpausetoggle2 =  
+act_songplay = P
+act_quit = q
+act_stationrename = r
+act_stationchange = s
+act_stationcreatefromsong = v
+act_songtired = t
+act_upcoming = u
+act_stationselectquickmix = x
+act_voldown = (
+act_volup = )
+act_volreset = ^
+
+# Misc
+audio_quality = high 
+#autostart_station = AC/DC Radio
+#event_command = /home/user/.config/pianobar/eventcmd
+#fifo = /tmp/pianobar
+#sort = quickmix_10_name_az
+#volume = 0
+ca_bundle = /etc/ssl/certs/ca-certificates.crt
+gain_mul = 1.0

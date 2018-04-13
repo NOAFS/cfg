@@ -1,0 +1,5 @@
+#!/bin/sh
+wireless wlp4s0 {
+    format_up = "%quality  %essid %ip"
+    format_down = ""
+}

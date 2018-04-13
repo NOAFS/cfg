@@ -1,0 +1,21 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 982,
+       "width": 1840,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Gmail - Mozilla Firefox",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^test$"
+       }
+    ],
+    "type": "con"
+}
+

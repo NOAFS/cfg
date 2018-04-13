@@ -1,0 +1,74 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 410,
+       "width": 654,
+       "x": 0,
+       "y": 0
+    },
+    "name": "ciclope@pt-ciclo:~",
+    "percent": 0.433333333333333,
+    "swallows": [
+       {
+        "class": "^termite_normal$",
+        "instance": "^termite$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.283333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 410,
+               "width": 654,
+               "x": 0,
+               "y": 0
+            },
+            "name": "htop -s PERCENT_CPU",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^termite_htop$",
+                "instance": "^termite$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 410,
+       "width": 654,
+       "x": 0,
+       "y": 0
+    },
+    "name": "ranger",
+    "percent": 0.283333333333333,
+    "swallows": [
+       {
+        "class": "^termite_ranger$",
+        "instance": "^termite$"
+       }
+    ],
+    "type": "con"
+}
+
