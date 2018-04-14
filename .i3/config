@@ -205,7 +205,7 @@ exec --no-startup-id i3-msg 'workspace 3: ; append_layout .i3/layouts/3.json'
 # Apps execs
 exec --no-startup-id firefox -no-remote -P default -new-window https://mail.google.com/mail/u/0/#inbox
 exec --no-startup-id firefox -no-remote -P wunderlist --class wunderlist -new-window https://www.wunderlist.com/webapp#/lists/292888702
-exec --no-startup-id termite --class=termite_normal
+exec --no-startup-id termite --class=termite_normal -e 'bash -c "cowthink $(fortune -a) && bash"' --hold &
 exec --no-startup-id termite --class=termite_htop -e 'htop -s PERCENT_CPU'
 exec --no-startup-id termite --class=termite_ranger -e ranger
 exec --no-startup-id termite --class=termite_pianobar -e pianobar
@@ -247,3 +247,7 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Lock for autologin
+exec betterlockscreen -l dimblur
+

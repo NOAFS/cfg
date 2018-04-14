@@ -7,4 +7,5 @@
 
 alias ls='ls --color=auto'
 PS1='\w\$ '
-cowthink $(fortune -a)
+#cowthink $(fortune -a)
+export EDITOR="vim"
